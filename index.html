@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayush Pal | CSE (AI &amp; ML) Portfolio</title>
+<meta name="description" content="Portfolio of Ayush Pal, second-year B.Tech CSE (AI & ML) student: data analysis, algorithms, web projects and a NASA hackathon.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛰️</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark"><div class="container">
+  <a class="brand navbar-brand" href="#home">Ayush<span>.</span>Pal</a>
+  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li><li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li><li class="nav-item"><a class="nav-link" href="#dashboard">Live dashboard</a></li>
+    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li><li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li><li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul></div></div></nav>
+
+<header class="hero" id="home"><canvas id="net" aria-hidden="true"></canvas>
+<div class="container"><p class="tag">PRN 250105231278</p><p class="tag">CSE (AI &amp; ML) · Second year</p>
+  <h1>Ayush Pal</h1>
+  <p class="role">I turn raw data and graph problems into answers people can use.</p>
+  <a class="btn btn-orb btn-lg me-2" href="#projects">See my projects</a><a class="btn btn-ghost btn-lg" href="#contact">Contact me</a>
+  <p class="hint">The dots are a social network. Click it: <b>breadth-first search</b> floods outward and lights the shortest path. <b id="hops"></b></p>
+</div></header>
+
+<section id="about"><div class="container"><h2 class="sec-title">About me</h2>
+<p class="sec-sub">A second-year engineering student who likes understanding how things connect.</p>
+<div class="row g-4"><div class="col-lg-7"><div class="panel">
+<p>I'm Ayush Pal, a second-year B.Tech student in Computer Science and Engineering, specialising in Artificial Intelligence and Machine Learning. I enjoy projects where a clear method produces a measurable result: cleaning a hospital dataset into a dashboard, finding the shortest chain between two users with BFS, or modelling attendance with set theory.</p>
+<p><b>Career interests:</b> data analysis, machine learning, algorithms and full-stack web development.</p>
+<p class="mb-0"><b>Goals:</b> secure a technical internship, build AI projects that solve real problems, and keep learning in public on GitHub.</p></div></div>
+<div class="col-lg-5"><div class="panel">
+<div class="fact"><span>Name</span><b>Ayush Pal</b></div><div class="fact"><span>PRN</span><b>250105231278</b></div>
+<div class="fact"><span>Department</span><b>CSE (AI &amp; ML)</b></div><div class="fact"><span>Year</span><b>Second year</b></div></div></div></div></div></section>
+
+<section id="skills" class="alt"><div class="container"><h2 class="sec-title">Skills</h2>
+<p class="sec-sub">Grouped by what I have actually used in the projects below.</p>
+<div class="row g-4">
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">Programming</p><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">Graph algorithms (BFS)</span><span class="chip">Set theory</span></div></div>
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">Web</p><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">Bootstrap 5</span><span class="chip">Chart.js</span></div></div>
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">Data analysis</p><span class="chip">Microsoft Excel</span><span class="chip">Data cleaning</span><span class="chip">Pivot tables</span><span class="chip">Dashboards</span></div></div>
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">AI &amp; ML (learning)</p><span class="chip">Machine learning basics</span><span class="chip">Data preparation</span><span class="chip">Network analysis</span></div></div>
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">Tools</p><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Vercel</span><span class="chip">VS Code</span></div></div>
+<div class="col-md-6 col-lg-4"><div class="panel"><p class="skill-h">Professional</p><span class="chip">Technical writing</span><span class="chip">Presenting</span><span class="chip">Teamwork</span><span class="chip">Field research</span></div></div>
+</div></div></section>
+
+<section id="projects"><div class="container"><h2 class="sec-title">Projects</h2>
+<p class="sec-sub">Four pieces of work, each with its source document to open or download.</p>
+<div class="row g-4">
+<div class="col-md-6"><article class="proj"><div class="thumb t1">Hospital Patient Analysis</div><div class="body">
+<p>Cleaned 180 patient records, built six pivot tables, charts and a dashboard, and wrote insights on cost, wait time and stay length. The same numbers drive the live dashboard below.</p>
+<div><span class="chip">Excel</span><span class="chip">Pivot tables</span><span class="chip">Data cleaning</span><span class="chip">Chart.js</span></div>
+<div class="links"><a class="btn btn-sm btn-orb" href="#dashboard">Open live dashboard</a><a class="btn btn-sm btn-outline-secondary" href="assets/docs/Hospital_Patient_Analysis.xlsx" download>Download Excel</a></div></div></article></div>
+<div class="col-md-6"><article class="proj"><div class="thumb t2">BFS Social Network Connection Finder</div><div class="body">
+<p>A shortest-connection finder for social networks, tested on three 10,000-user graphs. Bidirectional BFS expanded 99.6% fewer nodes and ran about 83x faster, with the same path length in 300 of 300 queries. Data is synthetic.</p>
+<div><span class="chip">Python</span><span class="chip">Graphs</span><span class="chip">BFS</span><span class="chip">Benchmarking</span></div>
+<div class="links"><a class="btn btn-sm btn-orb" href="assets/docs/BFS_Social_Network_Connection_Finder.pdf" target="_blank" rel="noopener">View report (PDF)</a></div></div></article></div>
+<div class="col-md-6"><article class="proj"><div class="thumb t3">Student Attendance Analyser</div><div class="body">
+<p>Represents students and attendance as mathematical sets, then uses union, intersection, difference and complement to find eligible and low-attendance students against a 75% rule.</p>
+<div><span class="chip">Set theory</span><span class="chip">Rule-based logic</span><span class="chip">Documentation</span></div>
+<div class="links"><a class="btn btn-sm btn-orb" href="assets/docs/Student_Attendance_Analyser_Using_Set_Theory.docx" download>Download documentation</a></div></div></article></div>
+<div class="col-md-6"><article class="proj"><div class="thumb t4">Marketing &amp; Cooperation (CEP)</div><div class="body">
+<p>Community engagement project on cooperative marketing for local producers: grading and aggregation, direct-to-consumer links, UPI and regional branding, with fieldwork results.</p>
+<div><span class="chip">Research</span><span class="chip">Presentation</span><span class="chip">Fieldwork</span></div>
+<div class="links"><a class="btn btn-sm btn-orb" href="assets/docs/Marketing_and_Cooperation.pdf" target="_blank" rel="noopener">View slides (PDF)</a></div></div></article></div>
+</div>
+<p class="mt-4 text-secondary">GitHub source: <a href="https://github.com/ayushomprakashpal-maker" target="_blank" rel="noopener">github.com/ayushomprakashpal-maker</a></p>
+</div></section>
+
+<section id="dashboard" class="alt"><div class="container"><h2 class="sec-title">Hospital dashboard, live</h2>
+<p class="sec-sub">Pick a pivot table, a measure and a chart type. Data comes from my Excel workbook.</p>
+<div class="d-flex flex-wrap gap-3 mb-4" id="kpis"></div>
+<div class="row g-4"><div class="col-lg-8"><div class="panel">
+<div class="row g-2 mb-3">
+<div class="col-md-4"><label class="form-label" for="pivotSel">Group by</label><select id="pivotSel" class="form-select"></select></div>
+<div class="col-md-4"><label class="form-label" for="metricSel">Measure</label><select id="metricSel" class="form-select"></select></div>
+<div class="col-md-4"><label class="form-label" for="typeSel">Chart</label><select id="typeSel" class="form-select"><option value="bar">Bar</option><option value="line">Line</option><option value="doughnut">Doughnut</option></select></div></div>
+<div class="chartbox"><canvas id="chart" role="img" aria-label="Hospital data chart"></canvas></div></div></div>
+<div class="col-lg-4"><div class="panel"><h3 class="h5">Insights from the analysis</h3><ul id="insights" class="ps-3 mb-0"></ul></div></div></div></div></section>
+
+<section id="education"><div class="container"><h2 class="sec-title">Education</h2><div class="tl">
+<div class="it"><h3 class="h5 mb-0">B.Tech, Computer Science and Engineering (AI &amp; ML)</h3><small>Second year · PRN 250105231278</small><p>Coursework includes data structures and algorithms, discrete mathematics (set theory), and programming. Add your college name and exact academic year here.</p></div>
+</div></div></section>
+
+<section id="achievements" class="alt"><div class="container"><h2 class="sec-title">Achievements</h2>
+<div class="nasa"><h3>NASA Hackathon</h3>
+<p>Participated in a NASA hackathon. Replace this paragraph with your event name (for example NASA Space Apps Challenge), year, challenge you chose, your role, what your team built and any award or certificate link.</p>
+<span class="tag">Hackathon</span><span class="tag">Team project</span><span class="tag">Space data</span></div>
+<div class="row g-4 mt-1"><div class="col-md-6"><div class="panel"><h3 class="h6">Certificates and workshops</h3><p class="mb-0">Add certificates, workshops and competitions here, each with title, issuer, date and link.</p></div></div>
+<div class="col-md-6"><div class="panel"><h3 class="h6">Community</h3><p class="mb-0">Digital literacy camps and branding support for local producer groups (see Experience).</p></div></div></div></div></section>
+
+<section id="experience"><div class="container"><h2 class="sec-title">Experience and training</h2><div class="tl">
+<div class="it"><h3 class="h5 mb-0">CEP student team fieldwork: Marketing &amp; Cooperation</h3><small>Community engagement project</small>
+<ul><li>Surveyed 150 local households on spending, selling prices and intermediary costs.</li><li>Ran digital literacy camps on UPI payments, online catalogues and digital records.</li><li>Designed branding kits: logos, label tags and social media templates.</li><li>Connected 45 artisans and growers with nearby urban retail partners.</li></ul></div>
+<div class="it"><h3 class="h5 mb-0">Internships and freelance</h3><small>Add if applicable</small><p>No internship listed yet. Add company, role, dates and what you built.</p></div></div></div></section>
+
+<section id="contact" class="alt"><div class="container"><h2 class="sec-title">Contact me</h2><p class="sec-sub">Open to internships and project collaboration.</p>
+<div class="row g-4"><div class="col-lg-5"><div class="panel">
+<div class="fact"><span>Email</span><a href="mailto:ayushomprakashpal@gmail.com">ayushomprakashpal@gmail.com</a></div>
+<div class="fact"><span>LinkedIn</span><a href="https://www.linkedin.com/in/ayush-pal-7b1448395" target="_blank" rel="noopener">ayush-pal-7b1448395</a></div>
+<div class="fact"><span>GitHub</span><a href="https://github.com/ayushomprakashpal-maker" target="_blank" rel="noopener">ayushomprakashpal-maker</a></div></div></div>
+<div class="col-lg-7"><form class="panel" id="contactForm">
+<div class="row g-3"><div class="col-md-6"><label class="form-label" for="name">Your name</label><input class="form-control" id="name" name="name" required></div>
+<div class="col-md-6"><label class="form-label" for="email">Your email</label><input class="form-control" id="email" name="email" type="email" required></div>
+<div class="col-12"><label class="form-label" for="msg">Message</label><textarea class="form-control" id="msg" name="msg" rows="4" required></textarea></div>
+<div class="col-12"><button class="btn btn-orb">Send by email</button></div></div></form></div></div></div></section>
+
+<footer><div class="container">Ayush Pal · PRN 250105231278 · CSE (AI &amp; ML), Second year</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="js/data.js"></script><script src="js/main.js"></script>
+</body></html>
